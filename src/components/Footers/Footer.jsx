@@ -29,6 +29,11 @@ const Footer = () => {
                 contact
               </a>
             </li>
+            <li>
+              <a href="#academic" class="hover:underline">
+                Academic
+              </a>
+            </li>
           </ul>
         </div>
       </footer>

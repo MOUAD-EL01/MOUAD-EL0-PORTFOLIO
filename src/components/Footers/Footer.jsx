@@ -16,21 +16,21 @@ const Footer = () => {
             </li>
             <li>
               <a href="#services" class="hover:underline me-4 md:me-6">
-                services
+                Services
               </a>
             </li>
             <li>
               <a href="#portfolio" class="hover:underline me-4 md:me-6">
-                portfolio
+                Portfolio
               </a>
             </li>
             <li>
-              <a href="#contact" class="hover:underline">
-                contact
+              <a href="#contact" class="hover:underline me-4 md:me-6">
+                Contact
               </a>
             </li>
             <li>
-              <a href="#academic" class="hover:underline">
+              <a href="#academic" class="hover:underline me-4 md:me-6">
                 Academic
               </a>
             </li>

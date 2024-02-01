@@ -13,6 +13,10 @@ import arbredezoetravaux from "../images/arbre-de-zoe-travaux.jpg";
 import enaraI from "../images/enara.jpg";
 import garetI from "../images/garet.png";
 import tropical from "../images/tropical-plante.jpg";
+import UiUx from "../images/resize-1706826948237646646UIUXSITE.png";
+import PasswordGenerator from "../images/resize-17068269281467972998passwordgenerater.png";
+import crudImage from "../images/resize-17068283771794255777home.png";
+
 const portfolios = [
   {
     id: "01",
@@ -90,6 +94,35 @@ const portfolios = [
     description: " Vitrine website that show all startup project,services....",
     technologies: ["React", "Tailwind css", "Hygraphe"],
     siteUrl: "https://tropicalplant.ma/",
+  },
+  {
+    id: "09",
+    imgUrl: UiUx,
+    category: "Front-End",
+    title: "UI-UX",
+    description: "A simple UI-UX website for practicing Tailwin css",
+    technologies: ["React", "Tailwind css"],
+    siteUrl: "https://ui-ux-travel-project-m.vercel.app/",
+  },
+  {
+    id: "10",
+    imgUrl: PasswordGenerator,
+    category: "Front-End",
+    title: "password-generator",
+    description:
+      " this website for password generation help me understanding the work of state in reactjs  ",
+    technologies: ["React", "Tailwind css"],
+    siteUrl: "https://password-generator-puce-nine.vercel.app/",
+  },
+  {
+    id: "11",
+    imgUrl: crudImage,
+    category: "Back-End",
+    title: "CRUD Webiste",
+    description:
+      "While exploring this website, I've deepened my grasp of key web development concepts. The rich content has honed my skills, covering crucial areas like building RESTful APIs with JSON Web Tokens (JWT),Authorization,CRUD operation...",
+    technologies: ["React", "Tailwind css", "Nodejs", "Expressjs"],
+    siteUrl: "https://github.com/MOUAD-EL01/Mern-app/blob/main/README.md",
   },
 ];
 

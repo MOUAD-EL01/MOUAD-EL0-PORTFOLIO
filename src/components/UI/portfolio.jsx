@@ -23,6 +23,10 @@ const portfolio = () => {
       const filterData = data.filter((item) => item.category === "Front-End"); // Change '=' to '==='
       setPortfolios(filterData);
     }
+    if (selectedTap === "Back-End") {
+      const filterData = data.filter((item) => item.category === "Back-End"); // Change '=' to '==='
+      setPortfolios(filterData);
+    }
     if (selectedTap === "Wordpress") {
       const filterData = data.filter((item) => item.category === "Wordpress"); // Change '=' to '==='
       setPortfolios(filterData);
@@ -55,6 +59,7 @@ const portfolio = () => {
               Front-End
             </button>
             <button
+              onClick={() => setSelectedTap("Back-End")}
               className=" text-[#66FCF1] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-smallTextColor
             hover:text-white hover:font-[600] ease-in duration-300 "
             >

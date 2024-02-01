@@ -1,10 +1,23 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    alert("hi");
+    toast.success("🦄 Email send!", {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
     emailjs
       .sendForm(
         "service_6pk8fxb",
@@ -87,7 +100,7 @@ const contact = () => {
               type="text"
               id="subject"
               name="subject"
-              className="block p-3 w-full text-sm text-white bg-gray-50 ro[#0B0C10]-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
+              className="block p-3 w-full text-sm text-[#0B0C10] bg-gray-50 ro[#0B0C10]-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
               placeholder="Let us know how we can help you"
               required
             />
@@ -103,7 +116,7 @@ const contact = () => {
               id="message"
               name="message"
               rows="6"
-              className="block p-2.5 w-full text-sm text-white bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
+              className="block p-2.5 w-full text-sm text-[#0B0C10] bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
               placeholder="Leave a comment..."
             ></textarea>
           </div>
@@ -119,6 +132,7 @@ const contact = () => {
           </div>
         </form>
       </div>
+      <ToastContainer />
     </section>
   );
 };

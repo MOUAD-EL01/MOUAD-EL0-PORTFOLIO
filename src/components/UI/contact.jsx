@@ -6,8 +6,8 @@ const contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    alert("hi");
-    toast.success("🦄 Email send!", {
+    // alert("hi");
+    toast.success(" 🚀 Email send!", {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,

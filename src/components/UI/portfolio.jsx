@@ -38,11 +38,11 @@ const portfolio = () => {
       <div className=" container lg:px-20 md:pt-4">
         <div className=" flex items-center justify-between flex-wrap">
           <div className="mb-7 sm:mb-0">
-            <h3 className=" text-headingColor text-[2rem] font-[700]">
+            <h3 className=" text-headingColor pl-16 text-[2rem] font-[700]">
               My recent Project:
             </h3>
           </div>
-          <div className="flex gap-1">
+          {/* <div className="flex gap-1">
             {" "}
             <button
               onClick={() => setSelectedTap("all")}
@@ -72,39 +72,43 @@ const portfolio = () => {
             >
               Wordpress
             </button>
-          </div>
+          </div> */}
         </div>
         <div
           data-aos="fade-right"
           data-aos-duration="1500"
-          className="flex items-center gap-4 flex-wrap mt-12"
+          className="flex items-center justify-center gap-4 flex-wrap mt-12"
         >
           {portfolios.slice(0, nextItems).map((portfolio, index) => (
-            <div
-              key={index}
-              className="group max-w-full sm:w-[48.5%] md:w-[30%]  lg:w-[32.2%] relative z-[1]"
-            >
-              <figure>
-                <img className="rounded-[8px]" src={portfolio.imgUrl} alt="" />
-              </figure>
-              <div className=" w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5 hidden group-hover:block">
-                <div className="w-full h-full flex items-center justify-center">
-                  <button
-                    onClick={() => showModalHandler(portfolio.id)}
-                    className="text- bg-[#DAE4EA] hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
-                  >
-                    see details
-                  </button>
+            <a target="_blank" href={portfolio.siteUrl}>
+              <div
+                key={index}
+                className="group max-w-full rounded-lg border border-solid border-[#3498DB] bg-[#3498DB]  relative "
+              >
+                <figure>
+                  <img
+                    className="rounded-lg w-[400px] h-[250px]"
+                    src={portfolio.imgUrl}
+                    alt=""
+                  />
+                </figure>
+                <p className="mx-2 mt-4 text-yellow-50 font-bold uppercase">
+                  {portfolio.title} :
+                </p>
+                <div className="flex my-4 text-white font-semibold">
+                  {portfolio.technologies.map((tech) => (
+                    <p className="mx-2">{tech}</p>
+                  ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
         <div className=" text-center mt-6">
           {nextItems < portfolios.length && data.length > 6 && (
             <button
               onClick={loadMoreHandler}
-              className="text-white bg-[#66FCF1] hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
+              className="text-white bg-[#3498DB] py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
             >
               Load more
             </button>

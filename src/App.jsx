@@ -23,7 +23,7 @@ function App() {
         <Academic />
         <Tech />
         <Services />
-        {/* <Portfolio /> */}
+        <Portfolio />
 
         <Contact />
       </main>

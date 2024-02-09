@@ -38,7 +38,7 @@ const portfolio = () => {
       <div className=" container lg:px-20 md:pt-4">
         <div className=" flex items-center justify-between flex-wrap">
           <div className="mb-7 sm:mb-0">
-            <h3 className=" text-headingColor pl-16 text-[2rem] font-[700]">
+            <h3 className=" text-headingColor lg:pl-16 text-[2rem] font-[700]">
               My recent Project:
             </h3>
           </div>
@@ -83,7 +83,7 @@ const portfolio = () => {
             <a target="_blank" href={portfolio.siteUrl}>
               <div
                 key={index}
-                className="group max-w-full rounded-lg border border-solid border-[#3498DB] bg-[#3498DB]  relative "
+                className="group max-w-full rounded-lg border border-solid border-[#1B385E] bg-[#1B385E]  relative "
               >
                 <figure>
                   <img
@@ -108,7 +108,7 @@ const portfolio = () => {
           {nextItems < portfolios.length && data.length > 6 && (
             <button
               onClick={loadMoreHandler}
-              className="text-white bg-[#3498DB] py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
+              className="text-white bg-[#1B385E] hover:bg-[#6053BE] py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
             >
               Load more
             </button>

@@ -10,55 +10,50 @@ const Header = () => {
     // alert(open);
   };
   return (
-    <header className=" relative lg:static top-0 z-10 w-full h-[80px] leading-[80px] flex items-center bg-[#3498DB] shadow-md md:px-20">
+    <header className=" relative lg:static top-0 z-10 w-full h-[80px] leading-[80px] flex items-center bg-[#202233] shadow-md md:px-20">
       <div className="container">
         <div className=" flex items-center justify-between">
           <div className=" flex items-center gap-[10px]">
             <span
-              className=" w-[35px] h-[35px] bg-smallTextColor text-white text-[18px] font-[500]
+              className=" w-[35px] h-[35px] bg-black text-white text-[18px] font-[500]
           rounded-full flex items-center justify-center "
             >
               M
             </span>
             <div className=" leading-[20px]">
-              <h2 className="text-xl text-smallTextColor font-[700]">Mouad</h2>
-              <p className=" text-smallTextColor text-[16px] font-[500]">
-                Elattar
-              </p>
+              <h2 className="text-xl text-white font-[700]">Mouad</h2>
+              <p className=" text-white text-[16px] font-[500]">Elattar</p>
             </div>
           </div>
           <div className="menu hidden lg:block">
             <ul className="flex items-center gap-10">
               <li>
-                <a className=" text-smallTextColor font-[600]" href="#about">
+                <a className=" text-white font-[600]" href="#about">
                   About
                 </a>
               </li>
               <li>
-                <a className=" text-smallTextColor font-[600]" href="#services">
+                <a className=" text-white font-[600]" href="#services">
                   Services
                 </a>
               </li>
               <li>
-                <a
-                  className=" text-smallTextColor font-[600]"
-                  href="#portfolio"
-                >
+                <a className=" text-white font-[600]" href="#portfolio">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[600]" href="#academic">
+                <a className="text-white font-[600]" href="#academic">
                   Academic
                 </a>
               </li>
               <li>
-                <a className=" text-smallTextColor font-[600]" href="#contact">
+                <a className=" text-white font-[600]" href="#contact">
                   Contact
                 </a>
               </li>
               <li>
-                <a className=" text-smallTextColor font-[600]" href="#Tech">
+                <a className=" text-white font-[600]" href="#Tech">
                   Tech
                 </a>
               </li>
@@ -67,15 +62,15 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <a href="#contact">
               <button
-                className=" flex items-center gap-2 text-smallTextColor font-[600] border border-solid
-               border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
-            hover:text-white hover:font-[600] ease-in duration-300 "
+                className=" flex items-center gap-2 text-white font-[600] border border-solid
+               border-white py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-white
+            hover:text-black hover:font-[600] ease-in duration-300 "
               >
                 <i className="ri-send-plane-line"></i>Let's Talk
               </button>
             </a>
             <span
-              className=" text-2xl text-smallTextColor md:hidden cursor-pointer "
+              className=" text-2xl text-white md:hidden cursor-pointer "
               onClick={openNaveMobile}
             >
               <i className="ri-menu-line"></i>
@@ -85,7 +80,7 @@ const Header = () => {
                 id="test"
                 data-aos="fade-left"
                 data-aos-duration="350"
-                className="fixed top-0 left-0 w-screen h-screen bg-[#3498DB] flex items-center justify-center"
+                className="fixed top-0 left-0 w-screen h-screen bg-[#202233] flex items-center justify-center"
               >
                 <center>
                   {" "}
@@ -101,7 +96,7 @@ const Header = () => {
                       <li data-aos="fade-left" data-aos-duration="750">
                         <a
                           onClick={openNaveMobile}
-                          className="text-[#202833] text-lg uppercase font-[600]"
+                          className="text-white text-lg uppercase font-[600]"
                           href="#about"
                         >
                           about
@@ -110,7 +105,7 @@ const Header = () => {
                       <li data-aos="fade-left" data-aos-duration="650">
                         <a
                           onClick={openNaveMobile}
-                          className="text-[#202833] text-lg uppercase font-[600]"
+                          className="text-white text-lg uppercase font-[600]"
                           href="#services"
                         >
                           services
@@ -119,7 +114,7 @@ const Header = () => {
                       <li data-aos="fade-left" data-aos-duration="550">
                         <a
                           onClick={openNaveMobile}
-                          className="text-[#202833] text-lg uppercase font-[600]"
+                          className="text-white text-lg uppercase font-[600]"
                           href="#portfolio"
                         >
                           portfolio
@@ -128,7 +123,7 @@ const Header = () => {
                       <li data-aos="fade-left" data-aos-duration="450">
                         <a
                           onClick={openNaveMobile}
-                          className="text-[#202833] text-lg uppercase font-[600]"
+                          className="text-white text-lg uppercase font-[600]"
                           href="#contact"
                         >
                           contact
@@ -137,7 +132,7 @@ const Header = () => {
                       <li data-aos="fade-left" data-aos-duration="450">
                         <a
                           onClick={openNaveMobile}
-                          className="text-[#202833] text-lg uppercase font-[600]"
+                          className="text-white text-lg uppercase font-[600]"
                           href="#academic"
                         >
                           Academic
@@ -146,7 +141,7 @@ const Header = () => {
                       <li data-aos="fade-left" data-aos-duration="450">
                         <a
                           onClick={openNaveMobile}
-                          className="text-[#202833] text-lg uppercase font-[600]"
+                          className="text-white text-lg uppercase font-[600]"
                           href="#Tech"
                         >
                           Tech

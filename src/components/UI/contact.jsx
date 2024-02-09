@@ -36,11 +36,11 @@ const contact = () => {
   };
   return (
     <section id="contact" className=" ">
-      <div className="py-8 lg:py-16 px-12 mx-auto max-w-screen-md bg-[#3498DB] rounded-lg">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-headingColor ">
+      <div className="py-8 lg:py-16 px-12 mx-auto max-w-screen-md bg-[#6053BE] rounded-lg">
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white ">
           Contact me
         </h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text-smallTextColor  sm:text-xl">
+        <p className="mb-8 lg:mb-16 font-light text-center text-white  sm:text-xl">
           Send me a Message for more details
         </p>
 
@@ -48,7 +48,7 @@ const contact = () => {
           <div>
             <label
               htmlFor="email"
-              className="block mb-4 mt-4 text-sm font-semibold text-[#1B385E] "
+              className="block mb-4 mt-4 text-lg font-semibold text-[#1B385E] "
             >
               Your email
             </label>
@@ -62,7 +62,7 @@ const contact = () => {
             />
             <label
               htmlFor="Name"
-              className="block mb-4 mt-4 text-sm font-semibold text-[#1B385E] "
+              className="block mb-4 mt-4 lgxt-sm font-semibold text-[#1B385E] "
             >
               Your Name
             </label>
@@ -76,7 +76,7 @@ const contact = () => {
             />
             <label
               htmlFor="Last Name"
-              className="block mb-4 mt-4 text-sm font-semibold text-[#1B385E] "
+              className="block mb-4 mt-4 lgxt-sm font-semibold text-[#1B385E] "
             >
               Your Last Name
             </label>
@@ -92,7 +92,7 @@ const contact = () => {
           <div>
             <label
               htmlFor="subject"
-              className="block my-4 text-sm font-semibold text-[#1B385E] "
+              className="block my-4 text-lg font-semibold text-[#1B385E] "
             >
               Subject
             </label>
@@ -108,7 +108,7 @@ const contact = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block my-4 text-sm font-semibold text-[#1B385E] "
+              className="block my-4 text-lg font-semibold text-[#1B385E] "
             >
               Your message
             </label>

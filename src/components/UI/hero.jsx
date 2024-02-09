@@ -30,7 +30,7 @@ const hero = () => {
               className=" flex  items-center gap-6 mt-7"
             >
               <a href="#contact">
-                <button className=" bg-[#3498DB] text-black font-[500] flex items-center gap-2 hover:bg-smallTextColor hover:text-white ease-in duration-500 py-2 px-4 rounded-[8px]">
+                <button className=" bg-[#6053BE] text-black font-[500] flex items-center gap-2 hover:bg-[#1B385E] hover:text-white ease-in duration-500 py-2 px-4 rounded-[8px]">
                   <i className="ri-mail-line"></i>Hire Me
                 </button>
               </a>
@@ -105,7 +105,7 @@ const hero = () => {
             className="md:basis-1/5 border-none rounded-lg border-2 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end"
           >
             <div className="lg:mb-10 p-1 ">
-              <h2 className=" text-[#3498DB] font-[700] text-[32px] ">
+              <h2 className=" text-[#6053BE] font-[700] text-[32px] ">
                 <CountUp start={0} end={1} duration={2} suffix="+" />
               </h2>
               <h4 className=" text-headingColor font-[600] text-[18px]">
@@ -113,7 +113,7 @@ const hero = () => {
               </h4>
             </div>
             <div className="mb-10 p-2">
-              <h2 className=" text-[#3498DB]  font-[700] text-[32px] mb-[-4.2px]">
+              <h2 className=" text-[#6053BE]  font-[700] text-[32px] mb-[-4.2px]">
                 <CountUp start={0} end={10} duration={2} suffix="+" />
               </h2>
               <h4 className=" text-headingColor font-[600] text-[18px]">

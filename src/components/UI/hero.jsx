@@ -2,7 +2,7 @@ import React from "react";
 
 import heroImg from "../../assets/images/header-img.svg";
 import CountUp from "react-countup";
-import cv from "../../assets//images/CV_2024-01-29_EL ATTAR_MOUAD.pdf";
+import cv from "../../assets//images/CV_2024-02-09_EL ATTAR_MOUAD (2).pdf";
 
 const hero = () => {
   return (
@@ -30,13 +30,13 @@ const hero = () => {
               className=" flex  items-center gap-6 mt-7"
             >
               <a href="#contact">
-                <button className=" bg-primaryColor text-black font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-500 py-2 px-4 rounded-[8px]">
-                  <i className="ri-mail-line"></i>Hire me
+                <button className=" bg-[#3498DB] text-black font-[500] flex items-center gap-2 hover:bg-smallTextColor hover:text-white ease-in duration-500 py-2 px-4 rounded-[8px]">
+                  <i className="ri-mail-line"></i>Hire Me
                 </button>
               </a>
               <a
                 href={cv}
-                className=" text-white font-[600] text-[16px] border-b border-solid border-white"
+                className=" bg-smallTextColor text-white font-[500] flex items-center gap-2 hover:bg-[#3498DB] hover:text-black ease-in duration-500 py-2 px-4 rounded-[8px]"
                 target="_blank"
               >
                 Get My CV
@@ -60,7 +60,7 @@ const hero = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2">&#8226;</span> 🌱 I’m currently
-                  learning (Spring Boot, Go, Angular)...
+                  learning (Spring Boot, Asp.net core, Angular)...
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2">&#8226;</span> 🔭 I’m currently looking
@@ -69,13 +69,13 @@ const hero = () => {
               </ul>
             </div>
             <div className=" flex items-center gap-3 mt-10">
-              <span className=" text-[#66FCF1] text-[15px] font-[600]">
+              <span className=" text-headingColor text-[15px] font-[600]">
                 Follow me:
               </span>
               <span>
                 <a
                   href="https://github.com/MOUAD-EL01"
-                  className=" text-[#66FCF1] text-[18px] font-[600]"
+                  className=" text-headingColor text-[18px] font-[600]"
                 >
                   <i className="ri-github-fill"></i>
                 </a>
@@ -83,7 +83,7 @@ const hero = () => {
               <span>
                 <a
                   href="https://www.linkedin.com/in/mouad-el-attar-384096225/"
-                  className=" text-[#66FCF1] text-[18px] font-[600]"
+                  className=" text-headingColor text-[18px] font-[600]"
                 >
                   <i className="ri-linkedin-fill"></i>
                 </a>
@@ -102,10 +102,10 @@ const hero = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1500"
-            className="md:basis-1/5 lg:border-none border-solid border-[#66FCF1] rounded-lg border-2 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end"
+            className="md:basis-1/5 border-none rounded-lg border-2 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end"
           >
             <div className="lg:mb-10 p-1 ">
-              <h2 className=" text-headingColor font-[700] text-[32px] ">
+              <h2 className=" text-[#3498DB] font-[700] text-[32px] ">
                 <CountUp start={0} end={1} duration={2} suffix="+" />
               </h2>
               <h4 className=" text-headingColor font-[600] text-[18px]">
@@ -113,7 +113,7 @@ const hero = () => {
               </h4>
             </div>
             <div className="mb-10 p-2">
-              <h2 className=" text-headingColor font-[700] text-[32px] mb-[-4.2px]">
+              <h2 className=" text-[#3498DB]  font-[700] text-[32px] mb-[-4.2px]">
                 <CountUp start={0} end={10} duration={2} suffix="+" />
               </h2>
               <h4 className=" text-headingColor font-[600] text-[18px]">

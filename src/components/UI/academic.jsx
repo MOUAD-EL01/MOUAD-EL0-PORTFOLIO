@@ -9,7 +9,7 @@ const academic = () => {
           <h2
             data-aos="fade-down-right"
             data-aos-duration="1500"
-            className=" text-[#66FCF1] font-[800] text-[2.4rem] mb-5"
+            className=" text-headingColor font-[800] text-[2.4rem] mb-5"
           >
             {" "}
             📜 Diplomas and qualifications
@@ -29,7 +29,7 @@ const academic = () => {
                       <div
                         data-aos="fade-right"
                         data-aos-duration="1200"
-                        className=" bg-white p-4 rounded shadow group hover:bg-[#0B0C10] cursor-pointer ease-in duration-150"
+                        className=" bg-white p-4 rounded shadow group hover:bg-[#3498DB] cursor-pointer ease-in duration-150"
                       >
                         <h3 className=" text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">
                           Software development technician
@@ -42,7 +42,7 @@ const academic = () => {
                     </div>
                   </div>
                   <div
-                    className=" rounded-full bg-[#0B0C10] border-white border-2 w-10 h-10 p-2 absolute left-1/2 translate
+                    className=" rounded-full bg-[#3498DB] border-white border-2 w-10 h-10 p-2 absolute left-1/2 translate
                    -translate-x-1/2 -translate-y-4 sm:translet-y-0 flex items-center justify-center"
                   >
                     <figure>
@@ -60,7 +60,7 @@ const academic = () => {
                       <div
                         data-aos="fade-right"
                         data-aos-duration="1200"
-                        className=" bg-white p-4 rounded shadow group hover:bg-[#0B0C10] cursor-pointer ease-in duration-150"
+                        className=" bg-white p-4 rounded shadow group hover:bg-[#3498DB] cursor-pointer ease-in duration-150"
                       >
                         <h3 className=" text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">
                           National Baccalaureate
@@ -77,7 +77,7 @@ const academic = () => {
                     </div>
                   </div>
                   <div
-                    className=" rounded-full bg-[#0B0C10] border-white border-2 w-10 h-10 p-2 absolute left-1/2 translate
+                    className=" rounded-full bg-[#3498DB] border-white border-2 w-10 h-10 p-2 absolute left-1/2 translate
                    -translate-x-1/2 -translate-y-4 sm:translet-y-0 flex items-center justify-center"
                   >
                     <figure>

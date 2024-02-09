@@ -10,7 +10,7 @@ const Header = () => {
     // alert(open);
   };
   return (
-    <header className="sticky top-0 z-10 w-full h-[80px] leading-[80px] flex items-center bg-[#66FCF1] shadow-md md:px-20">
+    <header className=" relative lg:static top-0 z-10 w-full h-[80px] leading-[80px] flex items-center bg-[#3498DB] shadow-md md:px-20">
       <div className="container">
         <div className=" flex items-center justify-between">
           <div className=" flex items-center gap-[10px]">
@@ -57,6 +57,11 @@ const Header = () => {
                   Contact
                 </a>
               </li>
+              <li>
+                <a className=" text-smallTextColor font-[600]" href="#Tech">
+                  Tech
+                </a>
+              </li>
             </ul>
           </div>{" "}
           <div className="flex items-center gap-4">
@@ -80,7 +85,7 @@ const Header = () => {
                 id="test"
                 data-aos="fade-left"
                 data-aos-duration="350"
-                className="fixed top-0 left-0 w-screen h-screen bg-[#66FCF1] flex items-center justify-center"
+                className="fixed top-0 left-0 w-screen h-screen bg-[#3498DB] flex items-center justify-center"
               >
                 <center>
                   {" "}
@@ -136,6 +141,15 @@ const Header = () => {
                           href="#academic"
                         >
                           Academic
+                        </a>
+                      </li>
+                      <li data-aos="fade-left" data-aos-duration="450">
+                        <a
+                          onClick={openNaveMobile}
+                          className="text-[#202833] text-lg uppercase font-[600]"
+                          href="#Tech"
+                        >
+                          Tech
                         </a>
                       </li>
                     </ul>

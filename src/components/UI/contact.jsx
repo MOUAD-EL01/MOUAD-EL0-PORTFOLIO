@@ -35,12 +35,12 @@ const contact = () => {
       );
   };
   return (
-    <section id="contact" className="bg-[#202833] ">
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white ">
+    <section id="contact" className=" ">
+      <div className="py-8 lg:py-16 px-12 mx-auto max-w-screen-md bg-[#3498DB] rounded-lg">
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-headingColor ">
           Contact me
         </h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl">
+        <p className="mb-8 lg:mb-16 font-light text-center text-smallTextColor  sm:text-xl">
           Send me a Message for more details
         </p>
 
@@ -48,7 +48,7 @@ const contact = () => {
           <div>
             <label
               htmlFor="email"
-              className="block mb-4 mt-4 text-sm font-medium text-white "
+              className="block mb-4 mt-4 text-sm font-semibold text-[#1B385E] "
             >
               Your email
             </label>
@@ -62,7 +62,7 @@ const contact = () => {
             />
             <label
               htmlFor="Name"
-              className="block mb-4 mt-4 text-sm font-medium text-white "
+              className="block mb-4 mt-4 text-sm font-semibold text-[#1B385E] "
             >
               Your Name
             </label>
@@ -76,7 +76,7 @@ const contact = () => {
             />
             <label
               htmlFor="Last Name"
-              className="block mb-4 mt-4 text-sm font-medium text-white "
+              className="block mb-4 mt-4 text-sm font-semibold text-[#1B385E] "
             >
               Your Last Name
             </label>
@@ -92,7 +92,7 @@ const contact = () => {
           <div>
             <label
               htmlFor="subject"
-              className="block my-4 text-sm font-medium text-white "
+              className="block my-4 text-sm font-semibold text-[#1B385E] "
             >
               Subject
             </label>
@@ -101,14 +101,14 @@ const contact = () => {
               id="subject"
               name="subject"
               className="block p-3 w-full text-sm text-[#0B0C10] bg-gray-50 ro[#0B0C10]-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
-              placeholder="Let us know how we can help you"
+              placeholder="Let us know how I can help you"
               required
             />
           </div>
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block my-4 text-sm font-medium text-white "
+              className="block my-4 text-sm font-semibold text-[#1B385E] "
             >
               Your message
             </label>
@@ -117,13 +117,13 @@ const contact = () => {
               name="message"
               rows="6"
               className="block p-2.5 w-full text-sm text-[#0B0C10] bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
-              placeholder="Leave a comment..."
+              placeholder="Leave a Message..."
             ></textarea>
           </div>
           <div className=" flex mt-6 justify-end">
             {" "}
             <button
-              className=" text-black bg-[#66FCF1] font-[600] border border-solid
+              className=" text-black bg-[#FFF] font-[600] border border-solid
                border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
             hover:text-white hover:font-[600] ease-in duration-300 "
             >

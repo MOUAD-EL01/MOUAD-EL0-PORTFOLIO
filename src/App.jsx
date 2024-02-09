@@ -9,7 +9,7 @@ import Services from "./components/UI/services";
 import Portfolio from "./components/UI/portfolio";
 import Contact from "./components/UI/contact";
 import Academic from "./components/UI/academic";
-
+import Tech from "./components/UI/Tech";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -21,8 +21,9 @@ function App() {
       <main>
         <Hero />
         <Academic />
+        <Tech />
         <Services />
-        <Portfolio />
+        {/* <Portfolio /> */}
 
         <Contact />
       </main>

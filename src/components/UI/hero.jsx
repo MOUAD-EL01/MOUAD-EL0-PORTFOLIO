@@ -60,7 +60,7 @@ const hero = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2">&#8226;</span> 🌱 I’m currently
-                  learning (Spring Boot, Asp.net core, Angular)...
+                  learning (Vue js, Asp.net core)...
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2">&#8226;</span> 🔭 I’m currently looking
